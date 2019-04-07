@@ -54,15 +54,18 @@ Once the vector files are created, one can easily train and test a single task m
 Prepare following files under folder <b><i> QA_data/semEval_data/english_scorer_and_random_baselines.v2.2/v2.2/ </i></b>
 
 [1] SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy file by running:
+
           >> perl SemEval2016_task3_English_random_baseline_subtaskB.pl SemEval2016-Task3-CQA-QL-test.xml
      (it can also generates SemEval2016-Task3-CQA-QL-test.xml.subtaskB.pred)
 [2]  Prediction_file (created from provided test dataset and probability output)
 #### IR baseline & Tested System
+
 running:
          >> python MAP_scripts/ev.py SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy Prediction_file
          
           
 #### IR baseline & Random baseline
+
 running:
         >> python MAP_scripts/ev.py SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy SemEval2016-Task3-CQA-QL-                                test.xml.subtaskB.pred
 
