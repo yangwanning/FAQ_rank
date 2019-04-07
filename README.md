@@ -59,11 +59,10 @@ Prepare following files under folder <b><i> QA_data/semEval_data/english_scorer_
 [2]  Prediction_file (created from provided test dataset and probability output)
 #### IR baseline & Tested System
 running:
-          >> python MAP_scripts/ev.py SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy Prediction_file
+         >> python MAP_scripts/ev.py SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy Prediction_file
+         
           
 #### IR baseline & Random baseline
 running:
-          >> python MAP_scripts/ev.py SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy SemEval2016-Task3-CQA-QL-                                test.xml.subtaskB.pred
+        >> python MAP_scripts/ev.py SemEval2016-Task3-CQA-QL-test.xml.subtaskB.relevancy SemEval2016-Task3-CQA-QL-                                test.xml.subtaskB.pred
 
-
-    
